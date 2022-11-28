@@ -13,12 +13,16 @@
     "passport": "^0.6.0"
   },
   "devDependencies": {
-    "@sap/ux-specification": "^1.102.12",
+    "@sap/eslint-plugin-ui5-jsdocs": "^2.0.5",
+    "@sap/ux-specification": "^1.102.13",
+    "@sapui5/ts-types": "^1.92.2",
+    "eslint": "^7.32.0",
     "sqlite3": "^5.0.4"
   },
   "scripts": {
     "start": "cds run",
-    "watch-fiori": "cds watch --open fiori/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-fiori": "cds watch --open fiori/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "engines": {
     "node": "^16.15"
@@ -50,7 +54,8 @@
   },
   "sapux": [
     "app/fiori",
-    "app/fiori"
+    "app/fiori",
+    "app/project1"
   ],
   "cds": {
     "hana": {

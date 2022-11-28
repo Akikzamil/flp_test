@@ -1,8 +1,7 @@
 {
     "resources": [
         {
-            "name": "..\\..\\demo\\fiori\\controller\\Worklist-dbg.controller.js",
-            "isDebug": true
+            "name": "..\\..\\demo\\fiori\\controller\\NotFound.controller.js"
         },
         {
             "name": "..\\..\\demo\\fiori\\Component.js"
@@ -23,7 +22,8 @@
             "name": "..\\..\\demo\\fiori\\controller\\Object.controller.js"
         },
         {
-            "name": "..\\..\\demo\\fiori\\controller\\NotFound.controller.js"
+            "name": "..\\..\\demo\\fiori\\i18n\\i18n.properties",
+            "raw": "i18n\\i18n.properties"
         },
         {
             "name": "..\\..\\demo\\fiori\\controller\\ErrorHandler.js"
@@ -45,7 +45,11 @@
             "merged": true
         },
         {
-            "name": "..\\..\\demo\\fiori\\controller\\NotFound-dbg.controller.js",
+            "name": "..\\..\\demo\\fiori\\Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "..\\..\\demo\\fiori\\model\\models-dbg.js",
             "isDebug": true
         },
         {
@@ -53,19 +57,15 @@
             "isDebug": true
         },
         {
-            "name": "..\\..\\demo\\fiori\\utils\\locate-reuse-libs-dbg.js",
+            "name": "..\\..\\demo\\fiori\\controller\\Worklist-dbg.controller.js",
             "isDebug": true
-        },
-        {
-            "name": "..\\..\\demo\\fiori\\i18n\\i18n.properties",
-            "raw": "i18n\\i18n.properties"
         },
         {
             "name": "..\\..\\demo\\fiori\\controller\\Object-dbg.controller.js",
             "isDebug": true
         },
         {
-            "name": "..\\..\\demo\\fiori\\model\\models-dbg.js",
+            "name": "..\\..\\demo\\fiori\\controller\\NotFound-dbg.controller.js",
             "isDebug": true
         },
         {
@@ -81,7 +81,7 @@
             "isDebug": true
         },
         {
-            "name": "..\\..\\demo\\fiori\\Component-dbg.js",
+            "name": "..\\..\\demo\\fiori\\utils\\locate-reuse-libs-dbg.js",
             "isDebug": true
         },
         {

@@ -57,11 +57,26 @@ modules:
        - fiori-content.zip
        name: fiori
        target-path: resources/
+     - artifacts:
+       - project1-content.zip
+       name: project1
+       target-path: resources/
  - name: fiori
    type: html5
    path: app/fiori
    build-parameters:
      builder: custom
+     commands:
+     - npm install
+     - npm run build
+     supported-platforms: []              
+ - name: project1
+   type: html5
+   path: app/project1
+   build-parameters:
+     builder: custom
+
+     
      commands:
      - npm install
      - npm run build
