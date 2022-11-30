@@ -28,15 +28,15 @@
         },
         "crossNavigation": {
             "inbounds": {
-                "com-practice-project1-inbound": {
+                "fe-inbound": {
                     "signature": {
                         "parameters": {},
                         "additionalParameters": "allowed"
                     },
-                    "semanticObject": "test",
-                    "action": "test",
-                    "title": "{{flpTitle}}",
-                    "subTitle": "{{flpSubtitle}}",
+                    "semanticObject": "project1",
+                    "action": "display",
+                    "title": "Sample",
+                    "subTitle": "",
                     "icon": ""
                 }
             }
@@ -44,7 +44,7 @@
     },
     "sap.cloud": {
         "public": true,
-        "service": "my_project1"
+        "service": "my_service"
     },
     "sap.ui": {
         "technology": "UI5",
@@ -63,6 +63,11 @@
         }
     },
     "sap.ui5": {
+        "services": {
+            "ShellUIService": {
+                "factoryName": "sap.ushell.ui5service.ShellUIService"
+            }
+        },
         "flexEnabled": true,
         "dependencies": {
             "minUI5Version": "1.102.1",

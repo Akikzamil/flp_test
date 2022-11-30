@@ -1,11 +1,11 @@
 {
     "resources": [
         {
-            "name": "..\\..\\com\\practice\\project1\\controller\\View1-dbg.controller.js",
+            "name": "..\\..\\com\\practice\\project1\\Component-dbg.js",
             "isDebug": true
         },
         {
-            "name": "..\\..\\com\\practice\\project1\\controller\\View1.controller.js"
+            "name": "..\\..\\com\\practice\\project1\\Component.js"
         },
         {
             "name": "..\\..\\com\\practice\\project1\\utils\\locate-reuse-libs.js"
@@ -14,13 +14,13 @@
             "name": "..\\..\\com\\practice\\project1\\model\\models.js"
         },
         {
-            "name": "..\\..\\com\\practice\\project1\\manifest.json"
+            "name": "..\\..\\com\\practice\\project1\\controller\\View1.controller.js"
         },
         {
             "name": "..\\..\\com\\practice\\project1\\controller\\App.controller.js"
         },
         {
-            "name": "..\\..\\com\\practice\\project1\\Component.js"
+            "name": "..\\..\\com\\practice\\project1\\manifest.json"
         },
         {
             "name": "..\\..\\com\\practice\\project1\\manifest-bundle.zip"
@@ -30,7 +30,7 @@
             "merged": true
         },
         {
-            "name": "..\\..\\com\\practice\\project1\\controller\\App-dbg.controller.js",
+            "name": "..\\..\\com\\practice\\project1\\controller\\View1-dbg.controller.js",
             "isDebug": true
         },
         {
@@ -38,22 +38,28 @@
             "isDebug": true
         },
         {
-            "name": "..\\..\\com\\practice\\project1\\i18n\\i18n.properties",
-            "raw": "i18n\\i18n.properties"
-        },
-        {
             "name": "..\\..\\com\\practice\\project1\\utils\\locate-reuse-libs-dbg.js",
             "isDebug": true
         },
         {
-            "name": "..\\..\\com\\practice\\project1\\Component-dbg.js",
+            "name": "..\\..\\com\\practice\\project1\\controller\\App-dbg.controller.js",
             "isDebug": true
+        },
+        {
+            "name": "..\\..\\com\\practice\\project1\\i18n\\i18n.properties",
+            "raw": "i18n\\i18n.properties"
         },
         {
             "name": "..\\..\\sap-ui-version.json"
         },
         {
             "name": "..\\..\\com\\practice\\project1\\view\\View1.view.xml"
+        },
+        {
+            "name": "..\\..\\com\\practice\\project1\\view\\Settings.fragment.xml"
+        },
+        {
+            "name": "..\\..\\com\\practice\\project1\\view\\Popover.fragment.xml"
         },
         {
             "name": "..\\..\\com\\practice\\project1\\view\\App.view.xml"

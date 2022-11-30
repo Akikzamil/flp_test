@@ -1,0 +1,74 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+    >
+	<Popover
+		id="myPopover"
+		showHeader="false"
+		contentWidth="150px"
+		contentHeight="200px"
+        
+		placement="Bottom"
+		ariaLabelledBy="master-title">
+		<NavContainer
+			id="navCon">
+			<Page
+				id="master"
+				class="sapUiResponsivePadding--header"
+				title="Default User">
+				<List
+					id="list"
+					 >
+                     <items>
+                     	<StandardListItem id="_IDGenStandardListItem1"
+						title="App Finder"
+						type="Inactive"
+						icon="sap-icon://sys-find"
+						press="onNavToProduct"
+						 />
+                         <StandardListItem id="_IDGenStandardListItem2"
+						title="Settings"
+						type="Active"
+						icon="sap-icon://action-settings"
+						press="onSettingsDialogOpen"
+                        />
+                         <StandardListItem id="_IDGenStandardListItem3"
+						title="About"
+						type="Inactive"
+						icon="sap-icon://message-information"
+						press="onNavToProduct"
+						 />
+                         <StandardListItem id="_IDGenStandardListItem4"
+						title="Adapt UI"
+						type="Inactive"
+						icon="sap-icon://technical-object"
+						press="onNavToProduct"
+						 />
+                         <StandardListItem id="_IDGenStandardListItem5"
+						title="Sign Out"
+						type="Inactive"
+						icon="sap-icon://log"
+						press="onNavToProduct"
+						 />
+                     </items>	
+				</List>
+			</Page>
+			<Page
+				id="detail"
+				class="sapUiResponsivePadding--header"
+				showNavButton="true"
+				navButtonPress="onNavBack"
+				title="Product">
+				<content>
+					<ObjectHeader id="_IDGenObjectHeader1" title="{Name}" >
+						<attributes>
+							<ObjectAttribute id="_IDGenObjectAttribute1" text="{WeightMeasure} {WeightUnit}" />
+							<ObjectAttribute id="_IDGenObjectAttribute2" text="{Width} x {Depth} x {Height} {DimUnit}" />
+						</attributes>
+					</ObjectHeader>
+					<Text id="_IDGenText1" class="sapUiSmallMargin" text="{Description}" />
+				</content>
+			</Page>
+		</NavContainer>
+	</Popover>
+</core:FragmentDefinition>
